@@ -1,13 +1,8 @@
 import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-recipe-item',
-  standalone: true,
-  imports: [CommonModule],
   templateUrl: './recipe-item.component.html',
-  styleUrl: './recipe-item.component.scss'
+  styleUrl: './recipe-item.component.scss',
 })
-export class RecipeItemComponent {
-
-}
+export class RecipeItemComponent {}
